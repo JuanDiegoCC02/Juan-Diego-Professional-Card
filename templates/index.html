@@ -13,66 +13,46 @@
 </head>
 <body>
 
-    <div class="card">
+    <div class="professionalCard">
 
-        <img
-            src="{{ url_for('static', filename='Profile.jpg') }}"
-            alt="Profile Photo"
-            class="profile-image">
+        <img src="{{ url_for('static', filename='Profile.jpg') }}" alt="Profile Photo" class="profileImage">
 
-        <h1>Juan Diego Corella Camacho</h1>
+        <h1 class="name">Juan Diego Corella Camacho</h1>
 
-        <h2>
-            Full Stack Developer |
-            Telecommunications Technician
-        </h2>
+        <h2>Full Stack Developer | Telecommunications Technician</h2>
 
-        <p class="description">
+        <p class="description">Passionate about software development, new technologies and scalable web applications.</p>
 
-            Passionate about software development,
-            networking, cloud technologies and
-            scalable web applications.
-
-        </p>
 
         <div class="skills">
-
-            <span>Python</span>
-            <span>Django</span>
-            <span>React</span>
-            <span>JWT Authentication</span>
-            <span>Networking</span>
-
+            <span class="skill">Python</span>
+            <span class="skill">Django</span>
+            <span class="skill">React</span>
+            <span class="skill">JWT Authentication</span>
+            <span class="skill">Networking</span>
         </div>
 
-        <div class="buttons">
 
-            <a href="https://github.com/JuanDiegoCC02"
-               target="_blank">
+        <div class="linksButtons">
+            <a href="https://github.com/JuanDiegoCC02" target="_blank">
                GitHub
             </a>
 
-            <a href="https://juandiegocc02.github.io/Professional-Portfolio/"
-               target="_blank">
+            <a href="https://juandiegocc02.github.io/Professional-Portfolio/" target="_blank">
                Portfolio
             </a>
 
-            <a href="mailto:dcorella2324@gmail.com">
+            <a href="mailto:dcorella2324@gmail.com" target="_blank">
                Email
             </a>
 
-            <a href="https://www.linkedin.com/in/juan-diego-corella-camacho-a543ba1a9/"
-               target="_blank">
+            <a href="https://www.linkedin.com/in/juan-diego-corella-camacho-a543ba1a9/" target="_blank">
                LinkedIn
             </a>
-
         </div>
 
-        <footer>
 
-           Available for job opportunities
-
-        </footer>
+        <footer class="footer">Available for job opportunities</footer>
 
     </div>
 
