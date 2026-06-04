@@ -1,0 +1,244 @@
+/* root styles card professional */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:20px;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background:
+    linear-gradient(
+        135deg,
+        #0f172a 0%,
+        #1e293b 50%,
+        #334155 100%
+    );
+}
+
+/* card professional */
+
+.professionalCard{
+
+    width:100%;
+    max-width:750px;
+
+    background:#ffffff;
+
+    border-radius:24px;
+
+    padding:40px;
+
+    text-align:center;
+
+    box-shadow:
+    0 20px 40px rgba(0,0,0,0.25);
+
+    transition:all .3s ease;
+}
+
+.professionalCard:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:
+    0 25px 50px rgba(0,0,0,0.3);
+}
+
+/* profile img */
+
+.profileImage{
+
+    width:150px;
+    height:150px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:5px solid #2563eb;
+
+    margin-bottom:20px;
+
+    box-shadow:
+    0 10px 25px rgba(37,99,235,.35);
+}
+
+/* name */
+
+.name{
+
+    font-size:2rem;
+
+    font-weight:700;
+
+    color:#0f172a;
+
+    margin-bottom:10px;
+}
+
+/* technical */
+
+h2{
+
+    color:#2563eb;
+
+    font-size:1.1rem;
+
+    font-weight:600;
+
+    margin-bottom:20px;
+}
+
+/* description */
+
+.description{
+
+    max-width:600px;
+
+    margin:0 auto 25px;
+
+    color:#64748b;
+
+    line-height:1.7;
+
+    font-size:15px;
+}
+
+/* skills */
+
+.skills{
+
+    margin-bottom:30px;
+}
+
+.skill{
+
+    display:inline-block;
+
+    margin:6px;
+
+    padding:10px 16px;
+
+    border-radius:25px;
+
+    background:#eff6ff;
+
+    color:#2563eb;
+
+    font-weight:600;
+
+    font-size:14px;
+
+    border:1px solid #bfdbfe;
+
+    transition:.3s;
+}
+
+.skill:hover{
+
+    background:#2563eb;
+
+    color:white;
+
+    transform:translateY(-2px);
+}
+
+/* link buttons */
+
+.linksButtons{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+    margin-bottom:25px;
+}
+
+.linkButton{
+
+    text-decoration:none;
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:12px 20px;
+
+    border-radius:10px;
+
+    font-weight:600;
+
+    transition:.3s ease;
+}
+
+.linkButton:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-2px);
+}
+
+/* footer */
+
+.footer{
+
+    color:#94a3b8;
+
+    font-size:14px;
+
+    border-top:1px solid #e2e8f0;
+
+    padding-top:20px;
+}
+
+/* responsive */
+
+@media (max-width:768px){
+
+    .professionalCard{
+
+        padding:30px 20px;
+    }
+
+    .profileImage{
+
+        width:120px;
+        height:120px;
+    }
+
+    .name{
+
+        font-size:1.6rem;
+    }
+
+    h2{
+
+        font-size:1rem;
+    }
+
+    .description{
+
+        font-size:14px;
+    }
+
+    .linkButton{
+
+        width:100%;
+    }
+}
