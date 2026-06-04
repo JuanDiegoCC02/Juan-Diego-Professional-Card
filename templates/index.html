@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Professional Card</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='ProfessionalCard.css') }}">
+
+</head>
+<body>
+
+    <div class="card">
+
+        <img
+            src="{{ url_for('static', filename='Profile.jpg') }}"
+            alt="Profile Photo"
+            class="profile-image">
+
+        <h1>Juan Diego Corella Camacho</h1>
+
+        <h2>
+            Full Stack Developer |
+            Telecommunications Technician
+        </h2>
+
+        <p class="description">
+
+            Passionate about software development,
+            networking, cloud technologies and
+            scalable web applications.
+
+        </p>
+
+        <div class="skills">
+
+            <span>Python</span>
+            <span>Django</span>
+            <span>React</span>
+            <span>AWS</span>
+            <span>Networking</span>
+
+        </div>
+
+        <div class="buttons">
+
+            <a href="https://github.com/JuanDiegoCC02"
+               target="_blank">
+               GitHub
+            </a>
+
+            <a href="https://juandiegocc02.github.io/Professional-Portfolio/"
+               target="_blank">
+               Portfolio
+            </a>
+
+            <a href="mailto:dcorella2324@gmail.com">
+               Email
+            </a>
+
+            <a href="https://www.linkedin.com/in/juan-diego-corella-camacho-a543ba1a9/"
+               target="_blank">
+               LinkedIn
+            </a>
+
+        </div>
+
+        <footer>
+
+            Available for opportunities
+
+        </footer>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='ProfessionalCard.js') }}"></script>
+
+</body>
+</html>
